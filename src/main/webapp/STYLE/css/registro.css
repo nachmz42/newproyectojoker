@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-image: linear-gradient(to top, #3da7a1 0%, #e0b9c5 100%);
+background-attachment: fixed;
+  background-repeat: no-repeat;
+
+    font-family: 'Vibur', cursive;
+    font-family: 'Abel', sans-serif;
+opacity: .95;
+
+}
+
+form {
+    align-items: center;
+    width: 35%;
+    min-height: 600px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+    background-image: linear-gradient(-225deg, #aac3c7 50%, #c4a0b2 50%);
+}
+
+
+form .container {
+    width: 50%;
+    height: 300px;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+  
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+  
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  
+}
+
+
+header {
+    margin: 2% auto 10% auto;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 250%;
+    font-family: 'Playfair Display', serif;
+    color: hsl(0, 0%, 99%);
+}
+
+
+
+.input-item {
+    background: #fff;
+    color: rgb(75, 46, 46);
+    padding: 14.5px 0px 15px 9px;
+    align-items: center;
+}
+
+
+input[class="campos"]{
+    width:60%;
+    height: 2%;
+
+    margin-top: 2%;
+    padding: 10px;
+    
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+  
+    outline: none;
+    border: none;
+  
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.2s linear;
+    display: inline;
+    align-items: center;
+    
+}
+
+
+input[id="txt-input"] {
+	font-family: 'Playfair Display', serif;
+	width: 360px;
+	}
+
+
+input:focus {
+    transform: translateX(-2px);
+    border-radius: 5px;
+    width: 280px;
+    height: 50px;
+}
+
+button {
+    display: inline-block;
+    color: #252537;
+  
+    width: 100%;
+    height: 50px;
+  
+    padding: 0 20px;
+    border-radius: 20px;
+    
+    outline: none;
+    border: none;
+  
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    
+    margin: 7% auto;
+    letter-spacing: 0.02em;
+}
+
+.submits {
+    width: 48%;
+    display: inline-block;
+    float: left;
+    margin-left: 2%;
+    color: #8e5e75;
+}
+
+
+
+.registrar {
+	background: #ebbdec;
+	margin-buttom: 50%;}
+
+.sborrar{
+	background: #258585;
+	margin-top: 10%;
+	}
+
+
+
+button:hover {
+    transform: translatey(3px);
+    box-shadow: none;
+}
+
+button:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+a:link{
+	text-decoration: none;
+	color: #bb86b6;
+}
+a:hover{
+	color:white;
+}
+
+
+@keyframes ani9 {
+    0% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}

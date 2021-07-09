@@ -1,0 +1,126 @@
+@charset "ISO-8859-1";
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-kerning: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  jsp{
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  body{
+    background-color: #bfe5d8;
+    height: 100%;
+    text-align: center;
+    text-align: center;
+  }
+  div{
+    clear:both;
+    padding: 40px;
+  }
+  header{
+    text-align: center;
+    background-color: #85c5af;
+    background-repeat: inherit;
+    height:100px;
+    width: 100%;
+    background-size:cover;
+  }
+  
+  nav {
+   padding: 1rem;
+  font-family: 'Righteous', serif;
+  display: flex;
+  transform-style: preserve-3d;
+  justify-content: space-evenly;
+  position: relative;
+  flex-wrap: wrap;
+  top: 2rem;
+  color: rgb(18, 92, 105);
+  text-align: center;
+  }
+  
+  .container {
+   padding: 80px 10px 10px 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  align-items: center;
+  }
+
+a{
+	color: rgb(89, 163, 151);
+	font-family: 'Righteous', serif;
+	font-size: 28px; 	
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+	color:#ffffff;
+}
+
+
+.admin{ 
+  padding-top: 3rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  text-align: center;
+  color: bold #3dab82;
+  font-family: 'Righteous', serif;
+  font-size: 25px;  
+  border-radius: 60% 60% 60% 60%;
+background-color: #FEF5E7;
+  text-align: center;
+  overflow:hidden;
+
+}
+  
+  .home{
+    top: 20px;
+  margin-left: 120px;
+  position: relative;
+  float: left;
+  border-radius: 15px;
+  border: 0;
+background-color: #E8F6F3;
+  background-color: #E8F6F3;
+    
+  
+  }
+  .logout{
+   top: 20px;
+  margin-right: 120px;
+  position: relative;
+  float: right;
+  border-radius: 15px;
+  border: 0;
+  background-color: #E8F6F3; 
+  }
+  
+  button{
+    width:100px;
+    height: 65px;;
+  }
+  
+  .footer{
+    background-color: #59b494;
+    text-align: center;
+  }
+  .admin2 {
+	border-radius: 20px;
+	background-color: #FEF5E7; 
+}
+
+
+
+
+

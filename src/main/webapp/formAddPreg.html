@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="STYLE/css/addpreg.css"></link>
+</head>
+<body>
+<div class="encabezado">
+	<div class="home"><a style="text-decoration:none; color:black" href="admin.jsp">Home</a></div>
+	<div class="logout"><a style="text-decoration:none; color:black" href="Logout">Logout</a></div>
+	<div class="admin">AD</div>
+	</div>
+		<div class= "cuerpo">
+	<div class= "testbox">
+
+	<form action="AMDPreg" method="post">
+	<h2>Añadir pregunta</h2>
+		<label>Pregunta</label><br>
+		<input type="text" name="pregunta" placeholder="Pregunta..."><br>
+		<label>Respuesta 1</label>
+		<input type="text" name="rs1" placeholder="Respuesta 1..."><br>
+		<label>Respuesta 2</label>
+		<input type="text" name="rs2" placeholder="Respuesta 2..."><br>
+		<label>Respuesta 3</label>
+		<input type="text" name="rs3" placeholder="Respuesta 3..."><br>
+		<label>Respuesta 4</label>
+		<input type="text" name="rs4" placeholder="Respuesta 4..."><br>
+		<label>Respuesta Correcta</label>
+		<input type="text" name="rsc" placeholder="Respuesta Correcta..."><br>
+		<label>Categoria (c/m/p)</label>
+		<input type="text" name="cat" placeholder="Introducir solo c/m/p..."><br>
+		<input type="submit" value="Enviar">
+		<input type="reset" value="Borrar"><br>
+		<input type="hidden" name = "op" value="a">
+		<input type="hidden" name = "id" value="42">
+	</form>
+	</div>
+	</div>
+</body>
+</html>
