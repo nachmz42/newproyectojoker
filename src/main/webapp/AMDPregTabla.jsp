@@ -18,6 +18,7 @@
     <header>
         <button class="home"><a   href="index.jsp">Home</a></button></b>
         <button class="logout"><a href="Logout">Logout</a></button>
+        <button class="home"><a  href="formAddPreg.html">Añadir pregunta</a></button>
         <nav class="encabezado">
             <div class="admin">ADMIN</div>
         </nav>
